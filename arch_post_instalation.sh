@@ -7,4 +7,5 @@ git clone https://aur.archlinux.org/yay-git.git
 sudo mv yay-git /opt/
 cd /opt/yay-git
 makepkg -si
-yay -S ulauncher"
+yay -S ulauncher
+terminal color text - #eadbab background #282828"
