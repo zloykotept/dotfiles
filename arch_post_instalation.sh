@@ -8,4 +8,5 @@ sudo mv yay-git /opt/
 cd /opt/yay-git
 makepkg -si
 yay -S ulauncher
-terminal color text - #eadbab background #282828"
+terminal color text - #eadbab background #282828
+rice repo: https://github.com/levelednain/nainism-desktop/tree/sway"
