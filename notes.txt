@@ -1,0 +1,13 @@
+i3 v4.24
+i3lock-color
+betterlockscreen
+rofi
+rofi-power-menu -> HOME
+~~bumblbee -> HOME~~
+polybar
+picom jonaburg fork
+feh
+amix
+xdotools
+pip install --user i3-layouts
+ulauncher
