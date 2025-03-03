@@ -1,7 +1,7 @@
 # install rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 # install stuff
-sudo pacman -S libreoffice-fresh alsa-utils keepassxc lxappearance feh imagemagick lapce firefox nemo nano kitty fzf shutter neovim
+sudo pacman -S libreoffice-fresh alsa-utils keepassxc lxappearance feh imagemagick lapce firefox nemo nano kitty fzf shutter neovim gnome-system-monitor file-roller
 mkdir -p ~/.local/share/fonts
 cp AgaveNerdFont-Regular.ttf ~/.local/share/fonts/
 cp JetBrainsMono-Regular.ttf ~/.local/share/fonts/
