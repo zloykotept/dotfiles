@@ -47,8 +47,9 @@ exec_always --no-startup-id setxkbmap -layout us,ru
 exec_always --no-startup-id setxkbmap -option 'grp:win_space_toggle'
 exec_always --no-startup-id i3-layouts > ~/Desktop/lo.txt
 exec_always --no-startup-id feh --bg-scale ~/Pictures/wall1.png
-exec --no-startup-id picom --config ~/.config/picom.conf --experimental-backends &
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+#exec --no-startup-id picom --config ~/.config/picom.conf --experimental-backends &
+#exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec --no-startup-id ulauncher &
 
 #CUSTOM STUFF
 default_border pixel 2
