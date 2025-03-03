@@ -45,7 +45,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 exec_always --no-startup-id xrandr -s 1920x1080
 exec_always --no-startup-id setxkbmap -layout us,ru
 exec_always --no-startup-id setxkbmap -option 'grp:win_space_toggle'
-#exec --no-startup-id i3-layouts > ~/Desktop/lo.txt
+exec_always --no-startup-id i3-layouts &
 exec_always --no-startup-id feh --bg-scale ~/Pictures/wall1.png
 #exec --no-startup-id picom --config ~/.config/picom.conf --experimental-backends &
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
@@ -117,8 +117,8 @@ bindsym $mod+Shift+Right move right
 bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
+bindsym $mod+s exec --no-startup-id shutter -f
+bindsym $mod+w exec --no-startup-id shutter -s
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
