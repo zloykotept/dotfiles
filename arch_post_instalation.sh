@@ -12,4 +12,5 @@ cd /opt/yay-git
 makepkg -si
 ######### yay -S ulauncher
 ######### yay -S p7zip-gui
-######### yay -S betterlockscreen" > cheetsheet.txt
+######### yay -S betterlockscreen
+######### yay -S i3-layouts" > cheetsheet.txt
