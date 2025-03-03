@@ -11,5 +11,5 @@ sudo mv yay-git /opt/
 cd /opt/yay-git
 makepkg -si
 yay -S ulauncher
-orange: #eadbab background: #282828
-https://github.com/wdomitrz/kitty_gruvbox_theme"
+yay -S p7zip-gui
+yay -S betterlockscreen" > cheetsheet.txt
