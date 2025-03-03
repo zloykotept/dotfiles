@@ -45,10 +45,11 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 exec_always --no-startup-id xrandr -s 1920x1080
 exec_always --no-startup-id setxkbmap -layout us,ru
 exec_always --no-startup-id setxkbmap -option 'grp:win_space_toggle'
-exec_always --no-startup-id i3-layouts > ~/Desktop/lo.txt
+#exec --no-startup-id i3-layouts > ~/Desktop/lo.txt
 exec_always --no-startup-id feh --bg-scale ~/Pictures/wall1.png
 #exec --no-startup-id picom --config ~/.config/picom.conf --experimental-backends &
-#exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+#exec_always --no-startup-id WAYBAR_DISPLAY_SERVER=x11 waybar
 exec --no-startup-id ulauncher &
 
 #CUSTOM STUFF
@@ -228,7 +229,7 @@ bindsym $mod+r mode "resize"
 #}
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #3dad86 #28634f #ffffff #16b882   #096144
+client.focused          #fe8019 #d65d0e #ffffff #d65d0e #d65d0e 
 client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
 client.unfocused        #484e50 #484e50 #484e50 #484e50   #484e50
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
