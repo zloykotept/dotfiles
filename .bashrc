@@ -128,8 +128,10 @@ eval "$(fzf --bash)"
 # ALIASES STUFF HERE
 alias ls='ls -l'
 alias la='ls -la'
-alias vo='export FZF_LAST=$(fzf) && nvim $FZF_LAST'
+alias vo='fzf > ~/.fzf_history && nvim $(cat ~/.fzf_history)'
 alias vi='nvim'
-alias vl='nvim $FZF_LAST'
-alias get='apt install'
+alias vl='nvim $(cat ~/.fzf_history)'
+alias fzfl='$(cat ~/.fzf_history)'
+alias get='sudo pacman -S'
+alias remove='sudo pacman -Rs'
 alias home='cd ~'
