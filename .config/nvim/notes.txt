@@ -1,2 +1,4 @@
 install rust, then: rustup component add rust-analyzer
 install packer FIRST!!!
+# bind to key to toggle inlay hints
+:lua vim.lsp.inlay_hint.enable()
