@@ -34,4 +34,4 @@ map("n", "<Leader>o", ":normal! o<CR>", {desc = "Paste new line (down)"})
 map("n", "<Leader>O", ":normal! O<CR>", {desc = "Paste new line (up)"})
 map("n", "<Leader>lso", ":LspStart<CR>", {desc = "Start lsp"})
 map("n", "<Leader>lsc", ":LspStop<CR>", {desc = "Stop lsp"})
-
+map("n", "<Leader>t", ":lua vim.lsp.inlay_hint.enable()<CR>", {desc = "Inlay Hints"})
